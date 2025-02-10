@@ -22,10 +22,10 @@ service = Service(EdgeChromiumDriverManager().install())
 driver = webdriver.Edge(service=service, options=options)
 driver.get("https://kepler-beta.itu.edu.tr")
 
-CRNS = ["21491"] #Almak istediğiniz CRN'leri yazın.
+CRNS = ["11111", "22222"] #Almak istediğiniz CRN'leri yazın.
 
-mail = "akkusz20@itu.edu.tr"
-password = "Ultraslan.12."
+mail = "babapro@itu.edu.tr"
+password = "babapro"
 
 # service_object = Service(r"C:\Users\yagiz\Desktop\ITU_ADD_DROP_BOTU-main\msedgedriver.exe")
 # options = Options()
